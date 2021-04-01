@@ -1,0 +1,5 @@
+
+ShaderGraph/Library/Artifacts/*
+*.log
+ShaderGraph/Temp/*
+ShaderGraph/Library/ShaderCache/*
