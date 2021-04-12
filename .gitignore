@@ -3,3 +3,5 @@ ShaderGraph/Library/Artifacts/*
 *.log
 ShaderGraph/Temp/*
 ShaderGraph/Library/ShaderCache/*
+ShaderGraph2D/Temp/*
+ShaderGraph2D/Library/Artifacts/*
