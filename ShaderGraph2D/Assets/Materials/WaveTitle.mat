@@ -36,6 +36,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_1cd480f8cf7c495790063425938810b4: 0
+    - Vector1_2badc5044ea347ef868261f299819344: 0
     - _Fader: 1
     - _TextHeight: 1
     m_Colors:
