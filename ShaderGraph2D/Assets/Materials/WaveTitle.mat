@@ -58,7 +58,7 @@ Material:
     m_Floats:
     - Vector1_1cd480f8cf7c495790063425938810b4: 0
     - Vector1_2badc5044ea347ef868261f299819344: 0
-    - _Fader: 1
+    - _Fader: 0
     - _TextHeight: 1
     m_Colors:
     - Vector2_f3d42ecc20c843a19a693ebd9a8cba40: {r: 0, g: 1, b: 0, a: 0}
