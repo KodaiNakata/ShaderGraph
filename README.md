@@ -23,6 +23,11 @@
 ![image](https://user-images.githubusercontent.com/22285365/115114626-5220f080-9fcb-11eb-9714-1ec2b91d8f1a.png)
 ![gif_animation_004](https://user-images.githubusercontent.com/22285365/115114650-67961a80-9fcb-11eb-8304-05c1ee7eaff0.gif)
 
+## 6.文字が下から上へ浮かび上がると同時にグニャグニャが少しずつおさまる(自分で調べながら作成)
+![image](https://user-images.githubusercontent.com/22285365/115947037-0a84f200-a500-11eb-86ce-7782a9a78467.png)
+![image](https://user-images.githubusercontent.com/22285365/115947039-12dd2d00-a500-11eb-8556-677b31161c48.png)
+![gif_animation_009](https://user-images.githubusercontent.com/22285365/115947029-ffca5d00-a4ff-11eb-872e-139b81f468da.gif)
+
 # 参考動画
 - https://learning.unity3d.jp/5811/
 - https://learning.unity3d.jp/5822/
