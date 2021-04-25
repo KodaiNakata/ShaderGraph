@@ -32,6 +32,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_7f114494e9e9452da0726e388b489d2b: 5000
+    - Vector1_bb17e11f18f847a1a409de0d3bb3b42d: 20
     - Vector1_ed957a4b2bef47ae9f748b4c012d20e3: 0
     - _Progress: 1
     m_Colors: []

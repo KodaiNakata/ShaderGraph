@@ -1,4 +1,4 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 
@@ -21,7 +21,7 @@ public class PostEffect : ScriptableRendererFeature
     {
         if (scriptablePass != null && scriptablePass.postEffectMaterial != null)
         {
-            // ƒŒƒ“ƒ_[ƒLƒ…[‚É“o˜^ (ƒ|ƒXƒgƒGƒtƒFƒNƒgÀs)
+            // ãƒ¬ãƒ³ãƒ€ãƒ¼ã‚­ãƒ¥ãƒ¼ã«ç™»éŒ² (ãƒã‚¹ãƒˆã‚¨ãƒ•ã‚§ã‚¯ãƒˆå®Ÿè¡Œ)
             renderer.EnqueuePass(scriptablePass);
         }
     }
@@ -30,30 +30,30 @@ public class PostEffect : ScriptableRendererFeature
     [System.Serializable]
     public class GrayscaleSetting
     {
-        // ƒ|ƒXƒgƒGƒtƒFƒNƒg‚Ég—p‚·‚éƒ}ƒeƒŠƒAƒ‹
+        // ãƒã‚¹ãƒˆã‚¨ãƒ•ã‚§ã‚¯ãƒˆã«ä½¿ç”¨ã™ã‚‹ãƒãƒ†ãƒªã‚¢ãƒ«
         public Material material;
 
-        // ƒŒƒ“ƒ_ƒŠƒ“ƒO‚ÌÀsƒ^ƒCƒ~ƒ“ƒO
+        // ãƒ¬ãƒ³ãƒ€ãƒªãƒ³ã‚°ã®å®Ÿè¡Œã‚¿ã‚¤ãƒŸãƒ³ã‚°
         public RenderPassEvent renderPassEvent = RenderPassEvent.AfterRenderingTransparents;
     }
 
     /// <summary>
-    /// GrayscaleÀsPass
+    /// Grayscaleå®Ÿè¡ŒPass
     /// </summary>
     class GrayScalePass : ScriptableRenderPass
     {
         private readonly string profilerTag = "GrayScale Pass";
 
-        public Material postEffectMaterial; // ƒOƒŒ[ƒXƒP[ƒ‹ŒvZ—pƒ}ƒeƒŠƒAƒ‹
+        public Material postEffectMaterial; // ã‚°ãƒ¬ãƒ¼ã‚¹ã‚±ãƒ¼ãƒ«è¨ˆç®—ç”¨ãƒãƒ†ãƒªã‚¢ãƒ«
 
         public override void Execute(ScriptableRenderContext context, ref RenderingData renderingData)
         {
             var cameraColorTarget = renderingData.cameraData.renderer.cameraColorTarget;
 
-            // ƒRƒ}ƒ“ƒhƒoƒbƒtƒ@
+            // ã‚³ãƒãƒ³ãƒ‰ãƒãƒƒãƒ•ã‚¡
             var cmd = CommandBufferPool.Get(profilerTag);
 
-            // ƒ}ƒeƒŠƒAƒ‹Às
+            // ãƒãƒ†ãƒªã‚¢ãƒ«å®Ÿè¡Œ
             cmd.Blit(cameraColorTarget, cameraColorTarget, postEffectMaterial);
 
             context.ExecuteCommandBuffer(cmd);
