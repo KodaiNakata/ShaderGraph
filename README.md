@@ -28,10 +28,14 @@
 ![image](https://user-images.githubusercontent.com/22285365/115947039-12dd2d00-a500-11eb-8556-677b31161c48.png)
 ![gif_animation_009](https://user-images.githubusercontent.com/22285365/115947029-ffca5d00-a4ff-11eb-872e-139b81f468da.gif)
 
-## 7.画面遷移的な演出(自分で調べながら作成)
+## 7.画面遷移的な演出その1(自分で調べながら作成)
 ![image](https://user-images.githubusercontent.com/22285365/115995851-de5c9480-a617-11eb-9fa9-af5271f6d51c.png)
 ![image](https://user-images.githubusercontent.com/22285365/115995861-e4527580-a617-11eb-86e9-11326f06a338.png)
 ![gif_animation_011](https://user-images.githubusercontent.com/22285365/115995869-ec121a00-a617-11eb-8a5c-f65b182f97b6.gif)
+
+## 8.画面遷移的な演出その2(自分で調べながら作成)
+![image](https://user-images.githubusercontent.com/22285365/116851183-ed050600-ac2c-11eb-86f7-a803cf38fa96.png)
+![gif_animation_013](https://user-images.githubusercontent.com/22285365/116851407-42411780-ac2d-11eb-83f5-7212bc40a82a.gif)
 
 # 参考動画
 - https://learning.unity3d.jp/5811/
