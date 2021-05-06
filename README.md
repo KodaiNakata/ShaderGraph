@@ -38,6 +38,11 @@
 ![image](https://user-images.githubusercontent.com/22285365/116968820-35392c80-acf0-11eb-917e-82771b4fcff7.png)
 ![gif_animation_014](https://user-images.githubusercontent.com/22285365/116968831-38ccb380-acf0-11eb-8afc-d2e0b9f1f293.gif)
 
+## 9.画面遷移的な演出その3(自分で調べながら作成)
+![image](https://user-images.githubusercontent.com/22285365/117370631-a4d23600-af01-11eb-8248-94287b025e10.png)
+![image](https://user-images.githubusercontent.com/22285365/117370650-ac91da80-af01-11eb-8cdd-fc2394d59d47.png)
+![gif_animation_016](https://user-images.githubusercontent.com/22285365/117370663-b1568e80-af01-11eb-9190-c46555f0a0b3.gif)
+
 # 参考動画
 - https://learning.unity3d.jp/5811/
 - https://learning.unity3d.jp/5822/
