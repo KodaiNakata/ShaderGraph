@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4ec290fce4d2aa4792dfa39f153d460, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  postEffectMaterial: {fileID: 2100000, guid: 770a327195b12774cabd9cfd5bf0ac0a, type: 2}
+  postEffectMaterial: {fileID: 2100000, guid: cd1c4d81e49e26843a69366565e93e22, type: 2}
   transitionTime: 0.6
 --- !u!4 &166393643
 Transform:

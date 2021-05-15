@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Active: 1
   settings:
-    material: {fileID: 2100000, guid: 770a327195b12774cabd9cfd5bf0ac0a, type: 2}
+    material: {fileID: 2100000, guid: cd1c4d81e49e26843a69366565e93e22, type: 2}
     renderPassEvent: 550
 --- !u!114 &11400000
 MonoBehaviour:
