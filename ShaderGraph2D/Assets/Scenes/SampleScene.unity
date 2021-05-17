@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   postEffectMaterial: {fileID: 2100000, guid: cd1c4d81e49e26843a69366565e93e22, type: 2}
-  transitionTime: 0.6
+  transitionTime: 0.5
 --- !u!4 &166393643
 Transform:
   m_ObjectHideFlags: 0
@@ -376,7 +376,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 0}
   m_CullingMode: 0
@@ -394,7 +394,7 @@ PlayableDirector:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: d145907e3c5f2d646af1c9412f17ec0f, type: 2}
   m_InitialState: 1
