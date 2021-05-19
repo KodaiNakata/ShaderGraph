@@ -43,10 +43,10 @@ public class TransitionPostEffect : MonoBehaviour
             {
                 break;
             }
-            postEffectMaterial.SetFloat(_progress, progess);
+            postEffectMaterial.SetFloat(_progress, -progess);
             yield return null;
             t += Time.deltaTime;
         }
-        postEffectMaterial.SetFloat(_progress, -0.4f);
+        postEffectMaterial.SetFloat(_progress, -0.001f);
     }
 }
