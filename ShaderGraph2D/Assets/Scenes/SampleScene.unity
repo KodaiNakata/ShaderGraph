@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   postEffectMaterial: {fileID: 2100000, guid: 4d63bfd447dc27b439ca1a291c7b1555, type: 2}
-  transitionTime: 0.5
+  transitionTime: 2
 --- !u!4 &166393643
 Transform:
   m_ObjectHideFlags: 0

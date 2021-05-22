@@ -16,13 +16,13 @@ public class TransitionPostEffect : MonoBehaviour
     {
         if (postEffectMaterial != null)
         {
-            StartCoroutine(Transition1());
+            StartCoroutine(Transition());
         }
     }
 
     private IEnumerator Transition()
     {
-        float t = -1f;
+        float t = 0f;
         while (t < transitionTime)
         {
             float progess = t / transitionTime;
@@ -30,7 +30,7 @@ public class TransitionPostEffect : MonoBehaviour
             yield return null;
             t += Time.deltaTime;
         }
-        postEffectMaterial.SetFloat(_progress, 1f);
+        postEffectMaterial.SetFloat(_progress, 2f);
     }
 
     private IEnumerator Transition1()
