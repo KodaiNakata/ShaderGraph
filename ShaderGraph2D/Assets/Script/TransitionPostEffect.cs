@@ -16,7 +16,7 @@ public class TransitionPostEffect : MonoBehaviour
     {
         if (postEffectMaterial != null)
         {
-            StartCoroutine(Transition());
+            StartCoroutine(Transition2());
         }
     }
 
@@ -48,5 +48,18 @@ public class TransitionPostEffect : MonoBehaviour
             t += Time.deltaTime;
         }
         postEffectMaterial.SetFloat(_progress, -0.001f);
+    }
+
+    private IEnumerator Transition2()
+    {
+        float t = 0f;
+        while (t < 2f)
+        {
+            float progess = t;
+            postEffectMaterial.SetFloat(_progress, progess);
+            yield return null;
+            t += Time.deltaTime;
+        }
+        postEffectMaterial.SetFloat(_progress, 2f);
     }
 }
