@@ -53,13 +53,13 @@ public class TransitionPostEffect : MonoBehaviour
     private IEnumerator Transition2()
     {
         float t = 0f;
-        while (t < 2f)
+        while (t < 17f)
         {
             float progess = t;
             postEffectMaterial.SetFloat(_progress, progess);
             yield return null;
             t += Time.deltaTime;
         }
-        postEffectMaterial.SetFloat(_progress, 2f);
+        postEffectMaterial.SetFloat(_progress, 17f);
     }
 }
