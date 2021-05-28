@@ -12,11 +12,13 @@ public class TransitionPostEffect : MonoBehaviour
 
     private readonly int _progress = Shader.PropertyToID("_Progress");
 
+    private readonly int _direct = Shader.PropertyToID("_Direct");
+
     private void Start()
     {
         if (postEffectMaterial != null)
         {
-            StartCoroutine(Transition2());
+            StartCoroutine(Transition3());
         }
     }
 
@@ -61,5 +63,23 @@ public class TransitionPostEffect : MonoBehaviour
             t += Time.deltaTime;
         }
         postEffectMaterial.SetFloat(_progress, 17f);
+    }
+
+    private IEnumerator Transition3()
+    {
+        float t = 0f;
+        float d = 0f;
+        while (d < 2f)
+        {
+            float progess = t;
+            float direct = d;
+            postEffectMaterial.SetFloat(_progress, progess);
+            postEffectMaterial.SetFloat(_direct, direct);
+            yield return null;
+            t += Time.deltaTime;
+            d += Time.deltaTime * 2f;
+        }
+        postEffectMaterial.SetFloat(_progress, 1f);
+        postEffectMaterial.SetFloat(_direct, 2f);
     }
 }
