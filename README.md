@@ -55,6 +55,10 @@
 ![image](https://user-images.githubusercontent.com/22285365/118820154-f959b600-b8f0-11eb-9bd3-6b4541c4345a.png)
 ![gif_animation_024](https://user-images.githubusercontent.com/22285365/118820167-fced3d00-b8f0-11eb-83e7-e6b85aece4b5.gif)
 
+## 12.画面遷移的な演出その5(自分で調べながら作成)
+![image](https://user-images.githubusercontent.com/22285365/120055195-73b3d400-c06f-11eb-9abf-1ade28cd738a.png)
+![gif_animation_032](https://user-images.githubusercontent.com/22285365/120055198-76162e00-c06f-11eb-9430-16d30c58a039.gif)
+
 # 参考動画
 - https://learning.unity3d.jp/5811/
 - https://learning.unity3d.jp/5822/
