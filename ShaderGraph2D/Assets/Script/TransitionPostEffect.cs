@@ -14,11 +14,15 @@ public class TransitionPostEffect : MonoBehaviour
 
     private readonly int _direct = Shader.PropertyToID("_Direct");
 
+    private readonly int _leftRight = Shader.PropertyToID("_LeftRight");
+
+    private readonly int _rightLeft = Shader.PropertyToID("_RightLeft");
+
     private void Start()
     {
         if (postEffectMaterial != null)
         {
-            StartCoroutine(Transition3());
+            StartCoroutine(Transition4());
         }
     }
 
@@ -81,5 +85,24 @@ public class TransitionPostEffect : MonoBehaviour
         }
         postEffectMaterial.SetFloat(_progress, 1f);
         postEffectMaterial.SetFloat(_direct, 2f);
+    }
+
+    private IEnumerator Transition4()
+    {
+        float t1 = 0f;
+        float t2 = 1f;
+
+        while (t1 < 1f)
+        {
+            float progress1 = t1;
+            float progress2 = t2;
+            postEffectMaterial.SetFloat(_leftRight, progress1);
+            postEffectMaterial.SetFloat(_rightLeft, progress2);
+            yield return null;
+            t1 += Time.deltaTime;
+            t2 -= Time.deltaTime;
+        }
+        postEffectMaterial.SetFloat(_leftRight, 1f);
+        postEffectMaterial.SetFloat(_rightLeft, 0f);
     }
 }
