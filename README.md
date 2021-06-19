@@ -59,6 +59,26 @@
 ![image](https://user-images.githubusercontent.com/22285365/120055195-73b3d400-c06f-11eb-9abf-1ade28cd738a.png)
 ![gif_animation_032](https://user-images.githubusercontent.com/22285365/120055198-76162e00-c06f-11eb-9430-16d30c58a039.gif)
 
+## 13.画面遷移的な演出その6(自分で調べながら作成)
+![image](https://user-images.githubusercontent.com/22285365/122637075-ac534480-d127-11eb-866c-5f2a8d9ac01c.png)
+![image](https://user-images.githubusercontent.com/22285365/122637087-c55bf580-d127-11eb-8ec9-961b711bfd60.png)
+![image](https://user-images.githubusercontent.com/22285365/122637099-d4db3e80-d127-11eb-84a3-560ef7853906.png)
+![image](https://user-images.githubusercontent.com/22285365/122637111-e1f82d80-d127-11eb-9ee0-36ec63001d60.png)
+![image](https://user-images.githubusercontent.com/22285365/122637122-ede3ef80-d127-11eb-9dae-35edce9b1532.png)
+![image](https://user-images.githubusercontent.com/22285365/122637127-ff2cfc00-d127-11eb-87e3-fdc4dcb322e9.png)
+![image](https://user-images.githubusercontent.com/22285365/122637149-153abc80-d128-11eb-8da2-ae42db247452.png)
+![image](https://user-images.githubusercontent.com/22285365/122637163-21bf1500-d128-11eb-8b00-4ff257d0c294.png)
+![image](https://user-images.githubusercontent.com/22285365/122637180-2f749a80-d128-11eb-9450-853e7c4aa19c.png)
+![image](https://user-images.githubusercontent.com/22285365/122637186-3c918980-d128-11eb-93ee-257b57aff7c5.png)
+![image](https://user-images.githubusercontent.com/22285365/122637204-4c10d280-d128-11eb-8be4-68c6cc3422be.png)
+![image](https://user-images.githubusercontent.com/22285365/122637221-6480ed00-d128-11eb-8152-31c1a0cd9718.png)
+![image](https://user-images.githubusercontent.com/22285365/122637233-75316300-d128-11eb-89c5-c4ce2db9da76.png)
+![image](https://user-images.githubusercontent.com/22285365/122637246-88443300-d128-11eb-986c-50dab593239c.png)
+![image](https://user-images.githubusercontent.com/22285365/122637255-94c88b80-d128-11eb-9a97-468753b7a286.png)
+![image](https://user-images.githubusercontent.com/22285365/122637270-a01bb700-d128-11eb-8d0c-84da76e71efe.png)
+![image](https://user-images.githubusercontent.com/22285365/122637276-ad38a600-d128-11eb-9c27-63c68a3bcdc3.png)
+![gif_animation_043](https://user-images.githubusercontent.com/22285365/122637285-b6297780-d128-11eb-9271-9df6f72c38c9.gif)
+
 # 参考動画
 - https://learning.unity3d.jp/5811/
 - https://learning.unity3d.jp/5822/
